@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/unreal0901/challenge-2)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://unreal0901.github.io/challenge-2/)
 
 ## My process
 
@@ -32,4 +32,4 @@ Users should be able to:
 ## Author
 
 - Website - [aditya](https://css-aditya.herokuapp.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@unreal0901](https://www.frontendmentor.io/profile/unreal0901)
