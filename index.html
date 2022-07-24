@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./styles.css" />
 
     <title>Frontend Mentor | Product preview card component</title>
 
@@ -28,34 +29,36 @@
   <body>
     <div class="wrapper">
       <div class="main">
-        <div class="image">
+        <div id="image" class="image">
           <img src="./images/image-product-desktop.jpg" alt="desktop image" />
         </div>
         <div class="content">
-          <p>PERFUME</p>
-          <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
-            eius!
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Exercitationem iste eaque accusantium dignissimos minus consequuntur
-            repellendus rem laboriosam, voluptatem consequatur eum, aliquam
-            blanditiis quos illum voluptatibus quo maiores, ipsa hic.
+          <p class="item">PERFUME</p>
+          <h1 class="heading">Gabrielle Essence Eau De Perfum</h1>
+          <p class="subcontent">
+            A floral, solar and voluptuous interpretation composed by Oliver
+            Polge,Perfumer-Creator for the House of CHANEL
           </p>
-          <p>
-            $149.99 <sup><del>$360</del></sup>
+          <p class="price">
+            $149.99&nbsp;&nbsp;<span class="del"
+              ><sup><del>$169.99</del></sup></span
+            >
           </p>
-          <button>Add to Cart</button>
+          <div class="btnwrapper">
+            <button class="btn">
+              <img src="./images/icon-cart.svg" alt="" />&nbsp; &nbsp; Add to
+              Cart
+            </button>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>
